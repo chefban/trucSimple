@@ -1,18 +1,33 @@
 import exception.NotValidParameterException;
 
 import java.util.Random;
+import java.util.Scanner;
 
 public class GameOfLife {
 
 
 
-    public int play(int lines, int columns, int iterations, int x, int y) throws NotValidParameterException {
-        verifyConstraint(lines,columns,iterations);
+    public void play(int lines, int columns, int queries) throws NotValidParameterException {
+        verifyConstraint(lines,columns,queries);
         int[][] myMatrix = generateMatrix(lines, columns);
         displayMatrix(myMatrix);
-        iterate(myMatrix, iterations);
+        System.out.println("Please enter Xaxis, Yaxis and iterations");
+        int n = 0;
+        int x =0;
+        int y =0;
+        int iterations =0;
+        Scanner scanner = new Scanner(System.in);
+        while(n < queries){
+            System.out.println("Please enter x");
+             x =Integer.valueOf(scanner.next());
+            System.out.println("Please enter y");
+             y =Integer.valueOf(scanner.next());
+            System.out.println("Please enter i");
+             iterations =Integer.valueOf(scanner.next());
+            iterate(myMatrix, iterations);
+            n++;
+        }
 
-        return myMatrix[x][y];
     }
 
 
