@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6809b1eb-470c-481e-96ec-64090664b788" name="Default" comment="add query number">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GameOfLife.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GameOfLife.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/myGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/myGame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/GameOfLifeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GameOfLifeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/GameOfLife.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GameOfLife.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/myGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/myGame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/GameOfLifeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/GameOfLifeTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -55,8 +48,8 @@
       <file leaf-file-name="GameOfLifeTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/GameOfLifeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+            <state relative-caret-position="357">
+              <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -285,7 +278,7 @@
       <option name="presentableId" value="Default" />
       <updated>1644851312549</updated>
       <workItem from="1644851319951" duration="16000000" />
-      <workItem from="1644919099453" duration="1663000" />
+      <workItem from="1644919099453" duration="4894000" />
     </task>
     <servers />
   </component>
@@ -322,7 +315,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17663000" />
+    <option name="totallyTimeSpent" value="20894000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -443,8 +436,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/GameOfLifeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+        <state relative-caret-position="357">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

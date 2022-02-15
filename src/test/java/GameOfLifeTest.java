@@ -16,12 +16,12 @@ class GameOfLifeTest {
         gameOfLife = new GameOfLife();
     }
 
-    /*@Test
+    @Test
     void shouldThrowException() {
         Assertions.assertThrows(NotValidParameterException.class, () -> {
             gameOfLife.verifyConstraint(1,-1,5478);
         });
-    }*/
+    }
 
 
 
